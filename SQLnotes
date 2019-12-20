@@ -1,0 +1,53 @@
+What is an RDBMS?
+RDBMS: relational database managment system
+    - visual map
+What is MySQL?
+MySQL: database management system for sql
+What is SQL?
+SQL: the queries run in MySQL
+
+What does CRUD mean and how does that translate to SQL?
+CRUD: create read update delete
+    -insert select update delete
+
+What is the difference between DDL, DCL, DQL, and DML SQL?
+DDL : description (create the tables)
+DCL : permisions, rights and other controls
+DQL : selection of the data
+DML : manipulation of data
+SQL : queries
+
+What is the proper order of the following components of a DQL query?
+    select clause
+    from
+    where clause
+    group by clause
+    having clause
+    order by clause
+    limit/offset clause
+
+What is a Key/Index in MySQL?
+In terms of DBMS a PRIMARY KEY is just a constraint that makes sure while inserting records you have UNIQUE and NOT NULL values in a particular or a set of columns, in a table. An Index is a separate object in a database that optimizes the storage of table records and help quick retrieval of records
+
+What is a constraint in MySQL?
+define rules to allow or restrict what values can be stored in columns. The purpose of inducing constraints is to enforce the integrity of a database.
+NOT NULL
+UNIQUE
+PRIMARY KEY
+FOREIGN KEY
+CHECK
+DEFAULT
+
+Give a specific example of how a constraint helps maintain "referential integrity" in a DB.
+
+
+What is the purpose of a Primary Key? A Foreign Key? A Unique Key?
+primary: unique not null, identified each row natural
+foreign: unique, can be referenced from another table 1:1
+
+
+
+
+
+
+
